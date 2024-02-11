@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  labels:
-    istio-injection: enabled
-    env: prod
   name: prod
+  labels:
+    istio.io/rev: asm-managed
+
