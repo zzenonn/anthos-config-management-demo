@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: prod
   labels:
-    istio.io/rev: asm-managed
+    istio.io/rev: asm-1203-4 # Replace with appropriate version
 
